@@ -87,3 +87,9 @@ div:nth-child(3){
 	margin-top: 33vh;	
 	background: #4485B3;
 }
+.menu{
+	background: #F83434;
+	position: absolute;
+	right: 250px;
+	bottom: 10px;
+}

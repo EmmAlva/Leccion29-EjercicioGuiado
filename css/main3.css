@@ -84,3 +84,9 @@
 .height-3{
 	height: 99vh;
 }
+.menu{
+	background: #F83434;
+	position: absolute;
+	right: 250px;
+	bottom: 10px;
+}

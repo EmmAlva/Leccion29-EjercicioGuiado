@@ -2,7 +2,9 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	font-family: 'Georgia';
 }
+
 .container{
 	widows: 100%;
 	max-width: 800px;
@@ -80,4 +82,38 @@
 
 .height-3{
 	height: 99vh;
+}
+.title{
+	margin:20px;
+}
+nav{
+	text-align: center;
+}
+ul li{
+	margin:40px;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.menu{
+	background: #F83434;
+	position: absolute;
+	right: 250px;
+	bottom: 10px;
+}
+footer{
+	background: #383533;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+
+}
+footer div{
+	color: #fff;
+	margin:20px;
+	text-align: center;
+
 }
