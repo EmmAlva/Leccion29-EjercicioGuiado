@@ -20,6 +20,7 @@
 	min-height: 7px;
 	padding: 12px;
 	float: left;
+
 }
 .col-1{
 	/*(1/12)x100*/
@@ -38,6 +39,10 @@
 	width: 33.333%;
 	border: 5px solid #BCB5A9;
 	background: #4485B3;
+	float: right;
+}
+div:nth-child(2){
+	margin-top: 33vh;	
 }
 .col-5{
 	/*(5/12)x100*/
@@ -54,6 +59,8 @@
 .col-8{
 	/*(8/12)x100*/
 	width: 66.6667%;
+	background: #A90BA9;
+	border: 5px solid #BCB5A9;
 }
 .col-9{
 	/*(9/12)x100*/
@@ -68,8 +75,8 @@
 }.col-12{
 	/*(12/12)x100*/
 	width: 100%;	
-	background: #A90BA9;
-	border: 5px solid #BCB5A9;
+	background: purple;
+	border: 3px solid orange;
 }
 .height-1{
 	height: 66vh;
